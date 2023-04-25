@@ -1,0 +1,174 @@
+ul{
+  list-style: none;
+  background: transparent;
+  margin: 5px;
+  
+}
+ul li{
+  display: inline-block;
+  
+  position: relative;
+  transition-duration: 1000ms;
+  transition-property: display,flex-direction;
+ 
+  
+}
+ul li a{
+  
+
+  padding: 20px 10px;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-start;
+  transition-duration: 1000ms;
+  transition-property: rotate;
+}
+ul li ul.dropdown li{
+  display: block;
+  text-decoration-line: none;
+  
+}
+ul li ul.dropdown{
+  width: 700%;
+  background: black;
+  position: absolute;
+  display: none;
+  align-items: center;
+  text-decoration-line: none;
+  gap: 40px;
+  
+  
+}
+ul li .dropdown li a{
+  text-decoration-line: none;
+  gap: 30px;
+}
+ul li a:hover{
+  background: white;
+  width: 90%;
+  rotate: 90deg;
+  color: black;
+  
+}
+ul li:hover ul.dropdown{
+  display: flex;
+  flex-direction: horizontal;
+  box-shadow: 5px 10px 20px black;
+  
+}
+
+
+ul li a img{
+  object-fit: cover;
+  height:90px ;
+  width:100px ;
+}
+ .box{
+  background: linear-gradient(to right,#4fc3dc,blue);
+  color: white;
+  box-shadow: 10px 20px 10px black;
+  padding: 280px 200px;
+  position: absolute;
+  top: 25%;
+  left: 1%;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  opacity: 20%;
+  border-radius: 5px;
+}
+.se a{
+  color: blue;
+}
+ew img{
+  object-fit: cover;
+  height: 530px;
+  width: 400px;
+  position: absolute;
+  top: 30%;
+  left: 1%;
+}
+.etxt{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+  left: -5%;
+  
+}
+h1{
+  position: absolute;
+  top:27%;
+  left: 7.9%;
+  font-size: 30px;
+  color: black;
+   text-shadow: 0 0 10px white,
+   0 0 50px white,
+   0 0 100px white; 
+   font-weight: bold;
+}
+aw img{
+  object-fit: cover;
+  height: 500px;
+  width: 380px;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  
+}
+.box1{
+  background: linear-gradient(to right,blue,#4fc3dc);
+  opacity: 20%;
+  padding: 280px 200px;
+  position: absolute;
+  top: 25%;
+  left: 58%;
+  border-right: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 10px 20px 10px black;
+}
+p{
+  position: absolute;
+  top: 27%;
+  left: 65%;
+  font-weight: bold;
+  font-size: 30px;
+  
+}
+d img{
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 40%;
+  opacity: 80%;
+}
+e img{
+  object-fit: cover;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 15%;
+  opacity: 75%;
+  right: -4%;
+}
+.down{
+  position: absolute;
+  display: flex;
+  flex-direction: horizontal;
+  gap: 70px;
+  top: 90%;
+  left: 36%;
+}
+
+.down a img{
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+}
+.down a img:hover{
+  height: 40px;
+  width: 40px
+}
