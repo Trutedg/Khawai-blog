@@ -1,0 +1,278 @@
+body {
+    font-size: 15pt;
+    background: white;
+    color: white;
+}
+.top{
+  color: black;
+  font-weight: 10px;
+  font-size: 40px;
+}
+.top b1 a{
+  text-decoration-line: none;
+  color: black;
+  position: absolute;
+  left: 2%;
+  font-weight: 15px;
+
+}
+.top b2 a{
+  text-decoration-line: none;
+  color: black;
+  position: absolute;
+  left: 35%;
+}
+.top b3 a{
+  text-decoration-line: none;
+  color: black;
+  position: absolute;
+  right: 2%;
+}
+.top{
+  text-decoration-line: none;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+h1{
+  font-style: initial;
+  color: black;
+  font-size: 60px;
+  position: absolute;
+  top: 12%;
+  left: 4%;
+}
+H2{
+  font-style: initial;
+  font-weight: bold;
+  font-size: 35px;
+  left: 4%;
+  position: absolute;
+  top: 20%;
+  color: black;
+}
+h3{
+  font-style: initial;
+  font-size: 30px;
+  left: 4%;
+  color: black;
+  position: absolute;
+  top: 24%;
+}
+/*.top b1 a:hover{
+  color: blue;
+}
+.top b2 a:hover{
+  color: blue;
+}
+.top b3 a:hover{
+  color: blue;
+}*/
+B{
+  color: black;
+  font-weight: 4em;
+}
+B b a{
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  padding: 10px 55px;
+  border-radius: 4px;
+  box-shadow: 8px 15px 20px black;
+  transition-duration: 100ms;
+  transition-property: padding;
+  text-decoration-line: none;
+}
+B c a{
+box-shadow: 10px 16px 22px black;
+cursor: pointer;
+padding:10px 55px;
+font-size: 40px;
+background: black;
+color: white;
+position: absolute;
+top: 55%;
+left: 60%;
+border: 1px solid black;
+transition-duration: 100ms;
+transition-property: padding;
+  text-decoration-line:none;
+}
+B b a:hover{
+  padding: 8px 50px;
+}
+B c a:hover{
+  padding: 8px 50px;
+}
+.bubbles
+{
+  display: flex;
+  position: relative;
+  
+}
+.bubbles span
+{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: #4fc3dc;
+  margin: 0 40px;
+  border-radius: 70%; 
+  box-shadow: 0 0 0 10px #4fc3dc44,
+  0 0 50px #4fc3dc,
+  0 0 100px #4fc3dc;
+  animation: animate 15s linear infinite;
+  animation-duration: calc(105s/var(--1))
+}
+.bubbles span:nth-child(even)
+{
+  background: black;
+  box-shadow: 0 0 0 10px black,
+  0 0 50px black,
+  0 0 100px black;
+}
+@keyframes animate
+{
+  0%
+  {
+    transform: translateY(100vh) scale(0);
+  }
+  100%
+  {
+    transform: translateY(-100vh) scale(1);
+  }
+}
+h2 span{
+  color: blue;
+}
+h3 span{
+  
+}
+h1 span{
+}
+img{
+   height: 90px;
+   width: 100px;
+  object-fit: cover;
+}
+
+
+h4{
+  position: absolute;
+  top: 30%;
+  left: 4%;
+  color: black;
+  font-size: 28px;
+  
+}
+e a{
+  position: absolute;
+  top: 32.5%;
+  color: blue;
+  font-size: 25px;
+  left: 35%;
+  text-decoration-line: overline;
+}
+ul{
+  list-style: none;
+  background: transparent;
+  margin: 5px;
+  
+}
+ul li{
+  display: inline-block;
+  
+  position: relative;
+
+ 
+  
+}
+ul li a{
+  
+
+  padding: 20px 10px;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-start;
+  transition-duration: 1000ms;
+  transition-property: rotate;
+}
+ul li ul.dropdown li{
+  display: block;
+  text-decoration-line: none;
+  
+}
+ul li ul.dropdown{
+  width: 700%;
+  background: black;
+  position: absolute;
+  display: none;
+  align-items: center;
+  text-decoration-line: none;
+  gap: 40px;
+  
+  
+}
+ul li .dropdown li a{
+  text-decoration-line: none;
+  gap: 30px;
+}
+ul li a:hover{
+  background: white;
+  width: 90%;
+  rotate: 90deg;
+  color: black;
+
+  
+}
+ul li:hover ul.dropdown{
+  display: flex;
+  flex-direction: horizontal;
+  box-shadow: 5px 10px 20px black;
+  
+}
+
+
+d img{
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 40%;
+  opacity: 80%;
+}
+e img{
+  object-fit: cover;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 15%;
+  opacity: 75%;
+  right: -4%;
+}
+.down{
+  position: absolute;
+  display: flex;
+  flex-direction: horizontal;
+  gap: 70px;
+  top: 90%;
+  left: 36%;
+}
+
+.down a img{
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+}
+.down a img:hover{
+  height: 40px;
+  width: 40px
+}
+.ho a{
+  color: blue;
+}
